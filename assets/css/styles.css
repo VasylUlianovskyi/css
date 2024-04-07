@@ -1,19 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* 
+* {
+  padding: 0;
+  margin: 0;
+} */
 
 body {
   font-family: "Raleway", 'sans-serif';
+  background-color: #f1f1f1;
 }
 
 header {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 h1 {
   text-align: center;
   text-transform: uppercase;
   font-size: 36px;
   font-weight: 600;
+}
+
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
 }
 
 .sub-title {
@@ -25,4 +45,32 @@ h1 {
   background-color: black;
   color: #f1f1f1;
   padding: 0px 8px;
+}
+
+.nature-article {
+  background-color: white;
+  padding: 0px 15px;
+}
+
+.article-title-desc {
+  font-size: 18px;
+}
+
+.article-time {
+  color: grey;
+  font-weight: 400;
+}
+
+.article-main-info {
+  font-size: 20px;
+  line-height: 1.15;
+  /* text-indent: 20px;
+  word-spacing: 0.5em; */
+}
+
+.read-more-link {
+  font-size: 15px;
+  border: 1px solid gainsboro;
+  font-weight: bold;
+  padding: 10px 20px;
 }
